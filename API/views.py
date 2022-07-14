@@ -1,6 +1,5 @@
 from django.contrib.auth.models import User
 from rest_framework import viewsets
-
 from .pagination import CustomPagination
 from .models import ToDo
 from .serializers import ToDoSerializer
